@@ -55,7 +55,7 @@
 	
 	
 	function updateFromInternet(){
-		$.get( "http://192.168.0.130/API/Alerts.php", function( data ) {
+		$.get( "http://192.168.1.142/API/Alerts.php", function( data ) {
 			
 			//should be upgraded to Local file storage at some point
 			var localData = JSON.stringify(data);
